@@ -6,7 +6,10 @@ import { MyCheckBox } from './components/MyCheckBox/MyCheckBox';
 
 function App() {
   return (
-       <div></div>
+    <div style={{lineHeight:'30px' }}>
+     <MyCheckBox label={'Tolga'} defaultChecked={false} disabled={false} />
+     <MyCheckBox label={'Baran'} defaultChecked={false} disabled={false} />
+     </div>
   );
 }
 
